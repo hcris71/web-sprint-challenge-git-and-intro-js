@@ -385,7 +385,7 @@ for (let i = 0; i < specificNationality.length; i++) {
   }
 return specificNationality; 
  }
-console.log(artistByCountry(artists, 'Spanish')); 
+//console.log(artistByCountry(artists, 'Spanish')); 
 
 
 
