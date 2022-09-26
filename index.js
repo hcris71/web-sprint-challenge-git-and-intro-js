@@ -351,10 +351,7 @@ Use artistInfo to do the following:
 
 function artistInfo(arr,name){
   let theOne = arr.find(artist => artist.name === name);
-  if (name === "Frida Kahlo") {
-    return artists[18].bio;
-  }
-  return theOne;
+  return theOne["bio"];
 }
 //console.log(artistInfo(artists, 'Frida Kahlo'));
 
